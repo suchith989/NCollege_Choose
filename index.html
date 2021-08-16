@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeChoose</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="title">
+        <!-- <div class="container-fluid"> -->
+            <p class="navbar-brand">College choose</p>
+        <!-- Title -->
+        
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <p class="meet"><span id="top">Start selecting your college easy way.</span> Select your desired branch and we will provide you with top colleges that you can join into.</p>
+          </div>
+            <div class="col-lg-6 col-md-12">
+                <img class="title-image" src="https://img.freepik.com/free-vector/young-students-walking-front-university-college-building-flat-vector-illustration-cartoon-people-relaxing-sitting-grass-campus_74855-8747.jpg?size=626&ext=jpg" alt="sam" style="width: 100%; height: 100%;">
+            </div>
+        </div>
+    <!-- </div> -->
+    
+      </section>
+    
+
+
+
+
+
+
+
+    <div class="section over-hide z-bigger">
+            <input class="checkbox" type="checkbox" name="general" id="general" checked style="position: absolute; left: 200%">
+		    <label class="for-checkbox" for="general" style="position: absolute; left: 200%"></label>
+		
+		<!-- <div class="background-color"></div> -->
+		<div class="section over-hide z-bigger">
+			<div class="container pb-5">
+        
+				<div class="row justify-content-center pb-5">
+					<div class="col-12 pt-5">
+            
+						<p class="mb-4 pb-2">CASTE</p>
+					</div>
+					<div class="col-12 pb-5">
+						<input class="checkbox-tools" type="radio" name="caste" id="tool-1" value="OC" checked>
+						<label class="for-checkbox-tools" for="tool-1">
+							OC
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="caste" id="tool-2" value="BC_A">
+						<label class="for-checkbox-tools" for="tool-2">
+							BC-A
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="caste" id="tool-3" value="BC_B">
+						<label class="for-checkbox-tools" for="tool-3">
+							BC-B
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="caste" id="tool-4" value="BC_C">
+						<label class="for-checkbox-tools" for="tool-4">
+							BC-C
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="caste" id="tool-5" value="BC_D">
+						<label class="for-checkbox-tools" for="tool-5">
+							BC-D
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="caste" id="tool-6" value="BC_E">
+						<label class="for-checkbox-tools" for="tool-6">
+							BC-E
+						</label>
+            <input class="checkbox-tools" type="radio" name="caste" id="tool-7" value="SC">
+						<label class="for-checkbox-tools" for="tool-7">
+							SC
+						</label>
+            <input class="checkbox-tools" type="radio" name="caste" id="tool-8" value="ST">
+						<label class="for-checkbox-tools" for="tool-8">
+							ST
+						</label>
+					</div>
+					<div class="col-12 pt-1">
+						<p class="mb-4 pb-2">Gender</p>
+					</div>
+					<div class="col-xl-10 pb-5">
+						<input class="checkbox-budget" type="radio" name="gender" id="budget-1" value="BOYS"checked>
+						<label class="for-checkbox-budget" for="budget-1">
+							<span data-hover="MALE">MALE</span>
+						</label><!--
+						--><input class="checkbox-budget" type="radio" name="gender" id="budget-2" value="GIRLS">
+						<label class="for-checkbox-budget" for="budget-2">							
+							<span data-hover="FEMALE">FEMALE</span>
+						</label>							
+						</label>
+					</div>
+        <form>
+  <div class="form-group w-25 rank_ch">
+    <div class="col-12 pt-1">
+        <p class="mb-4 pb-2">Rank</p>
+    </div>
+    <input type="number" class="form-control" id="rank" placeholder="Enter Rank" >
+  </div>
+					<div class="col-12 pt-1">
+						<p class="mb-4 pb-2">Branch</p>
+					</div>
+					<div class="col-12 pb-5">
+                        <input class="checkbox-tools" type="radio" name="branch" id="all_branch" value="ANY">
+                        <label class="for-checkbox-tools" for="all_branch">
+							<i class='uil uil-chart mr-3'></i><span class="text">ANY</span>
+						</label>
+						<input class="checkbox-tools" type="radio" name="branch" id="branch-1" checked value="CSE">
+						<label class="for-checkbox-tools" for="branch-1">
+                            <i class='uil uil-laptop mr-3'></i><span class="text">CSE</span>
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="branch" id="branch-2" value="ECE">
+						<label class="for-checkbox-tools" for="branch-2">
+							<i class='uil uil-wifi mr-3'></i><span class="text">ECE</span>
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="branch" id="branch-3" value="INF">
+						<label class="for-checkbox-tools" for="branch-3">
+							<i class='uil uil-laptop mr-3'></i><span class="text">IT</span>
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="branch" id="branch-4" value="EEE">
+						<label class="for-checkbox-tools" for="branch-4">
+							<i class='uil uil-circuit mr-3'></i><span class="text">EEE</span>
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="branch" id="branch-5" value="MEC">
+						<label class="for-checkbox-tools" for="branch-5">
+							<i class='uil uil-car mr-3'></i><span class="text">MECH</span>
+						</label><!--
+						--><input class="checkbox-tools" type="radio" name="branch" id="branch-6" value="CIV">
+						<label class="for-checkbox-tools" for="branch-6">
+							<i class='uil uil-building mr-3'></i><span class="text">CIVIL</span>
+						</label>
+                    </div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<button class="btn1" type="button">Submit</button>
+    <div class="result" style="position: relative; height: 40vh; width: 80vw; align-items: center;" >
+        
+        <table id="mytable" >
+
+        </table>
+        <canvas id="myChart" width="200px" height="200px"></canvas>
+    </div>
+    <script src="index.js"></script>
+	<!-- Link to page
+	================================================== -->
+    </body>
+</html>
