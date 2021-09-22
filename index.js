@@ -1,7 +1,6 @@
 let req = new XMLHttpRequest();
 var json_data= {};
-console.log("hello");
-    console.log("hello");
+
     var btn=document.getElementsByClassName('btn1');
     console.log(btn);
 btn[0].addEventListener("click",function(){
